@@ -1,7 +1,15 @@
 <p id="notice"><%= notice %></p>
-name: <%= @note.name%>
-text: <%= @note.text%>
-link: <%= @note.link%>
+<ul>
+	<li>
+		name: <%= @note.name%>
+	</li>
+	<li>
+		text: <%= @note.text%>
+	</li>	
+	<li>
+		link: <%= @note.link%>
+	</li>
+</ul>		
 <br/>
 
 <%= link_to 'Edit', edit_note_path(@note) %> |
